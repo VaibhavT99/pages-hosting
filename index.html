@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CATS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light" id="page-body">
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/bootstrap.png" alt="" width="28" height="28"
+                        class="d-inline-block align-text-top">
+                    CATS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid text-center bg-light">
+        <div class="py-4">
+            <!-- Carousel -->
+            <div id="cat_carousel" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner fixed-height-container">
+                    <div class="carousel-item active">
+                        <img src="./images/welcome_cat.svg" alt="slide1" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/happy_cat.svg" alt="slide2" class="img-fluid">
+                        <div class="font-weight-light">
+                            <h3>We Love Cats!</h3>
+                            <h5>Here Are Some Facts About Cats</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cat.svg" alt="slide3" class="img-fluid">
+                        <div class="font-weight-light">
+                            <h5>Scroll Down For More Fun Facts About Cats</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#cat_carousel" data-bs-slide="prev">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cat_carousel" data-bs-slide="next">
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Cards -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>Cats can jump up to 6 times their height</h3>
+                            <p>That’s right! Cats are really good jumpers and can jump really high. You can often see
+                                them on
+                                the top of a garden fence or on a really high wall!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>They have a total of 18 toes</h3>
+                            <p>That’s a lot of toes! Cats have 5 toes on each of their front paws. They then have four
+                                toes on
+                                their back paws.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3>A cat can run up to 30mph</h3>
+                            <p>Cats are very speedy. They can run up to 30mph. That’s about as fast as a car will travel
+                                on a
+                                typical road!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">&copy; 2023 CATS</span>
+            </div>
+            <!-- Icons -->
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="#"><img src="./images/twitter.png" class="img-fluid" height="28"
+                            width="28"></a></li>
+                <li class="ms-3"><a href="#"><img src="./images/facebook.png" class="img-fluid" height="28"
+                            width="28"></a></li>
+                <li class="ms-3"><a href="#"><img src="./images/instagram.png" class="img-fluid" height="28"
+                            width="28"></a></li>
+            </ul>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
